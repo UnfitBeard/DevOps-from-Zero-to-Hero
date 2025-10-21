@@ -4,10 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node hello.js",
-    "test": "node test.js"
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "node test.js",
+    "deploy": "sh deploy.sh"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://your_username:{{GITHUB_TOKEN}}@github.com/UnfitBeard/DevOps-from-Zero-to-Hero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UnfitBeard/DevOps-from-Zero-to-Hero/issues"
+  },
+  "homepage": "https://github.com/UnfitBeard/DevOps-from-Zero-to-Hero#readme",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  },
+  "type": "module"
 }
