@@ -13,8 +13,7 @@
   "author": "",
   "license": "ISC",
   "repository": {
-    "type": "git",
-    "url": "git+https://your_username:{{GITHUB_TOKEN}}@github.com/UnfitBeard/DevOps-from-Zero-to-Hero.git"
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/UnfitBeard/DevOps-from-Zero-to-Hero/issues"
